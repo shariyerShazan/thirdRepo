@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <!-- daisyUI cdn -->
+     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+     <script src="https://cdn.tailwindcss.com"></script>
+
+     <!-- font awesome cdn -->
+    <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+</head>
+<body class="overflow-x-hidden">
+    <!-- nav start ----------------->
+   <nav class=" bg-gradient-to-t from-[#f8efde] to-white ">
+
+       <!-- nav start --------------->
+       <header class="bg-[#EFEBE3] shadow-md ">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <!-- Logo ------------------>
+            <div>
+                <img src="./c2-assets/logo-header.png" alt="Logo" class="h-10">
+            </div>
+    
+            
+    
+            <!-- Navigation Links -------------->
+            <nav class="hidden sm:flex gap-6 text-gray-700">
+                <a href="#" class="hover:text-green-600">Product</a>
+                <a href="#" class="hover:text-green-600">Services</a>
+                <a href="#" class="hover:text-green-600">Contact us</a>
+            </nav>
+    
+            <!-- Icons / Buttons -------------->
+            <div class="flex items-center gap-5">
+                <!-- Search Icon ----------->
+                <button class="p-2 border rounded-full">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                    </svg>
+                </button>
+    
+                <!-- Shopping Cart --------------->
+                <div class="relative">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-700" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                    </svg>
+                    <span class="absolute -top-2 -right-2 bg-red-500 text-white text-xs px-2 py-0.5 rounded-full">8</span>
+                </div>
+    
+                <!-- Login-Register Buttons --------------->
+                <div class="hidden sm:flex gap-2">
+                    <button class="px-4 py-1 border-2 border-green-600 text-green-600 font-medium text-sm rounded-md">Login</button>
+                    <button class="px-4 py-1 bg-green-600 text-white font-medium text-sm rounded-md">Register</button>
+                </div>
+
+                <!-- Menu Button ---------- -->
+                  <button  class="block sm:hidden text-gray-600 focus:outline-none">
+                 <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M4 6h16M4 12h16m-7 6h7" />
+                </svg>
+            </button>
+            </div>
+        </div>
+    
+        
+    </header>
+    <!-- nav end -->
+
+    <div class="w-[85%] mx-auto ">
+
+         <!-- nav hero -->
+            <div >
+                 <div class="flex flex-col justify-center text-center mt-10 items-center">
+                    <h2  class="font-bold text-3xl py-4 max-w-[400px] animate-bounce">Freshness  <span class="text-[#179800] animate-ping	">You Can
+                        Count </span >On, Prices You’ll Love!</h2>
+                        <p class="pb-4 max-w-[400px]">
+                            Shop your daily essentials at unbeatable prices. From fresh produce to pantry staples, we’ve got you covered every day!
+                        </p>
+                        <img class="sm:max-w-[800px] max-w-[600px] pt-10 "  src="./c2-assets/hero-vegetables.png" alt="">
+                 </div>
+            </div>
+    </div>
+   </nav>
+<!-- nav end -->
+
+   <!-- service sec -->
+    <div class="w-[85%] mx-auto my-16">
+        <h2 class="text-3xl font-black text-[#179800] m-5">Services</h2>
+
+        <div class="flex flex-wrap justify-evenly gap-4">
+            <!-- card 1 -->
+            <div class="flex flex-col items-center text-center bg-[#EFEBE3] p-10 max-w-[300px] rounded-md">
+                <img class="p-4 rounded-full bg-white" src="./c2-assets/service.png" alt="">
+                <h2 class="text-2xl font-bold py-2">24/7 Services </h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+            </div>
+            <!-- card 2 -->
+            <div class="flex flex-col items-center text-center bg-[#EFEBE3] p-10 max-w-[300px] rounded-md">
+                <img class="p-4 rounded-full bg-white" src="./c2-assets/delivery.png" alt="">
+                <h2 class="text-2xl font-bold py-2">Fast Delivery </h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+            </div>
+            <!-- card 3 -->
+            <div class="flex flex-col items-center text-center bg-[#EFEBE3] p-10 max-w-[300px] rounded-md">
+                <img class="p-4 rounded-full bg-white" src="./c2-assets/healthy.png" alt="">
+                <h2 class="text-2xl font-bold py-2">Healthy Products </h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+            </div>
+            
+        </div>
+    </div>
+
+    <!-- Popular Products sec -->
+     <div class="bg-[#EFEBE3]">
+        <div class="w-[85%] mx-auto py-16">
+            <h2 class="text-3xl font-black text-[#179800] mb-12 mt-5 ml-5">
+                Popular Products
+            </h2>
+            <div class="flex justify-around flex-col sm:flex-row gap-5">
+                <div class="bg-gradient-to-tl from-white to-[#179800] p-12  max-w-[420px] min-h-[400px] relative rounded-md">
+                    <h2 class="text-white font-bold text-3xl">30% off</h2>
+                    <p class="py-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia.</p>
+                    <button class="bg-white py-3 px-7 rounded-md ">
+                        Buy Now
+                    </button>
+
+
+                    <img class="absolute bottom-0 right-0 w-[250px]" src="./c2-assets/vegetable-offer.png" alt="">
+                </div>
+                <!-- product card -->
+                 <div class="grid grid-cols-2 sm:grid-cols-3 gap-3 ">
+                    <!-- card 1 -->
+                     <div class="bg-white flex items-center gap-3 p-3 min-w-[180px] sm:min-w-[220px] rounded-md">
+                        <img class=" max-w-[70px] sm:max-w-[90px] max-h-[70px] sm:max-h-[90px] p-2 rounded-md bg-[#EFEBE3]" src="./c2-assets/onion.png" alt="">
+                        <div>
+                            <p><i class="fa-solid fa-star text-yellow-500"></i>4.5</p>
+                            <h3 class="font-bold text-lg py-1">Onion 1kg</h3>
+                            <p>$39.99</p>
+                        </div>
+                     </div>
+                     <!-- card 2 -->
+                     <div class="bg-white flex items-center gap-3 p-3 min-w-[180px] sm:min-w-[220px] rounded-md">
+                        <img class=" max-w-[70px] sm:max-w-[90px] max-h-[70px] sm:max-h-[90px] p-2 rounded-md bg-[#EFEBE3]" src="./c2-assets/tomato.png" alt="">
+                        <div>
+                            <p><i class="fa-solid fa-star text-yellow-500"></i>4.5</p>
+                            <h3 class="font-bold text-lg py-1">tomato 5kg</h3>
+                            <p>$39.99</p>
+                        </div>
+                     </div>
+                     <!-- card 3 -->
+                     <div class="bg-white flex items-center gap-3 p-3 min-w-[180px] sm:min-w-[220px] rounded-md">
+                        <img class=" max-w-[70px] sm:max-w-[90px] max-h-[70px] sm:max-h-[90px] p-2 rounded-md bg-[#EFEBE3]" src="./c2-assets/potato.png" alt="">
+                        <div>
+                            <p><i class="fa-solid fa-star text-yellow-500"></i>4.5</p>
+                            <h3 class="font-bold text-lg py-1">potato 1kg</h3>
+                            <p>$39.99</p>
+                        </div>
+                     </div>
+                     <!-- card 4 -->
+                     <div class="bg-white flex items-center gap-3 p-3 min-w-[180px] sm:min-w-[220px] rounded-md">
+                        <img class=" max-w-[70px] sm:max-w-[90px] max-h-[70px] sm:max-h-[90px] p-2 rounded-md bg-[#EFEBE3]" src="./c2-assets/onion.png" alt="">
+                        <div>
+                            <p><i class="fa-solid fa-star text-yellow-500"></i>4.5</p>
+                            <h3 class="font-bold text-lg py-1">Onion 1kg</h3>
+                            <p>$39.99</p>
+                        </div>
+                     </div>
+                     <!-- card 5 -->
+                     <div class="bg-white flex items-center gap-3 p-3 min-w-[180px] sm:min-w-[220px] rounded-md">
+                        <img class=" max-w-[70px] sm:max-w-[90px] max-h-[70px] sm:max-h-[90px] p-2 rounded-md bg-[#EFEBE3]" src="./c2-assets/tomato.png" alt="">
+                        <div>
+                            <p><i class="fa-solid fa-star text-yellow-500"></i>4.5</p>
+                            <h3 class="font-bold text-lg py-1">tomato 5kg</h3>
+                            <p>$39.99</p>
+                        </div>
+                     </div>
+                     <!-- card 6 -->
+                     <div class="bg-white flex items-center gap-3 p-3 min-w-[180px] sm:min-w-[220px] rounded-md">
+                        <img class=" max-w-[70px] sm:max-w-[90px] max-h-[70px] sm:max-h-[90px] p-2 rounded-md bg-[#EFEBE3]" src="./c2-assets/onion.png" alt="">
+                        <div>
+                            <p><i class="fa-solid fa-star text-yellow-500"></i>4.5</p>
+                            <h3 class="font-bold text-lg py-1">Onion 1kg</h3>
+                            <p>$39.99</p>
+                        </div>
+                     </div>
+                     <!-- card 7 -->
+                     <div class="bg-white flex items-center gap-3 p-3 min-w-[180px] sm:min-w-[220px] rounded-md">
+                        <img class=" max-w-[70px] sm:max-w-[90px] max-h-[70px] sm:max-h-[90px] p-2 rounded-md bg-[#EFEBE3]" src="./c2-assets/potato.png" alt="">
+                        <div>
+                            <p><i class="fa-solid fa-star text-yellow-500"></i>4.5</p>
+                            <h3 class="font-bold text-lg py-1">potato 1kg</h3>
+                            <p>$39.99</p>
+                        </div>
+                     </div>
+                     <!-- card 8 -->
+                     <div class="bg-white flex items-center gap-3 p-3 min-w-[180px] sm:min-w-[220px] rounded-md">
+                        <img class=" max-w-[70px] sm:max-w-[90px] max-h-[70px] sm:max-h-[90px] p-2 rounded-md bg-[#EFEBE3]" src="./c2-assets/onion.png" alt="">
+                        <div>
+                            <p><i class="fa-solid fa-star text-yellow-500"></i>4.5</p>
+                            <h3 class="font-bold text-lg py-1">Onion 1kg</h3>
+                            <p>$39.99</p>
+                        </div>
+                     </div>
+                     <!-- card 9 -->
+                     <div class="bg-white flex items-center gap-3 p-3 min-w-[180px] sm:min-w-[220px] rounded-md">
+                        <img class=" max-w-[70px] sm:max-w-[90px] max-h-[70px] sm:max-h-[90px] p-2 rounded-md bg-[#EFEBE3]" src="./c2-assets/tomato.png" alt="">
+                        <div>
+                            <p><i class="fa-solid fa-star text-yellow-500"></i>4.5</p>
+                            <h3 class="font-bold text-lg py-1">tomato 5kg</h3>
+                            <p>$39.99</p>
+                        </div>
+                     </div>
+
+
+
+                 </div>
+            </div>   
+         </div>
+     </div>
+
+
+       <!-- fature option start -->
+    
+       <div class="w-[85%] mx-auto my-28">
+        <h2 class="text-3xl font-black text-[#179800] m-5 my-6">Fature</h2>
+         <div class="flex flex-wrap justify-evenly gap-4">
+            <!-- card 1 -->
+            <div class="card bg-[#EFEBE3] w-96 shadow-xl hover:scale-[95%] ">
+                <div class="card-body">
+                  <h2 class="card-title">Meat</h2>
+                  <p>You don’t typically find philosophical bickering at an FDA public meeting. But then again, lab-grown meat is no ordinary topic.</p>
+                </div>
+                <figure>
+                  <img 
+                    src="https://media.wired.com/photos/5b493b6b0ea5ef37fa24f6f6/master/pass/meat-80049790.jpg"
+                    alt="Meat" />
+                </figure>
+              </div>
+              <!-- card 2 -->
+              <div class="card bg-[#EFEBE3] w-96 shadow-xl hover:scale-[95%]">
+                <div class="card-body">
+                  <h2 class="card-title">Fish</h2>
+                  <p>Fish and shellfish are an easy way to add valuable vitamins, minerals and fats to your diet, and are a great-quality protein alternative to red meat and poultry.
+                  </p>
+                </div>
+                <figure>
+                  <img 
+                    src="https://5.imimg.com/data5/SELLER/Default/2023/7/330683955/FO/CB/VY/30490815/fish-food.jpg"
+                    alt="Meat" />
+                </figure>
+              </div>
+              <!-- card 3 -->
+              <div class="card bg-[#EFEBE3] w-96 shadow-xl hover:scale-[95%]">
+                <div class="card-body">
+                  <h2 class="card-title">Vegetable</h2>
+                  <p>vegetable, in the broadest sense, any kind of plant life or plant product, namely “vegetable matter”; in common, narrow usage.</p>
+                </div>
+                <figure>
+                  <img class=""
+                    src="https://3.imimg.com/data3/SX/KS/MY-18430594/all-fresh-fruits-500x500.jpg"
+                    alt="Meat" />
+                </figure>
+              </div>
+              <!-- card 4 -->
+              <div class="card bg-[#EFEBE3] w-96 shadow-xl hover:scale-[95%]">
+                <div class="card-body">
+                  <h2 class="card-title">Fish</h2>
+                  <p>Fish and shellfish are an easy way to add valuable vitamins, minerals and fats to your diet, and are a great-quality protein alternative to red meat and poultry.
+                  </p>
+                </div>
+                <figure>
+                  <img
+                    src="https://5.imimg.com/data5/SELLER/Default/2023/7/330683955/FO/CB/VY/30490815/fish-food.jpg"
+                    alt="Meat" />
+                </figure>
+              </div>
+              <!-- card 5 -->
+              <div class="card bg-[#EFEBE3] w-96 shadow-xl hover:scale-[95%]">
+                <div class="card-body">
+                  <h2 class="card-title">Vegetable</h2>
+                  <p>vegetable, in the broadest sense, any kind of plant life or plant product, namely “vegetable matter”; in common, narrow usage.</p>
+                </div>
+                <figure>
+                  <img
+                    src="https://3.imimg.com/data3/SX/KS/MY-18430594/all-fresh-fruits-500x500.jpg"
+                    alt="Meat" />
+                </figure>
+              </div>
+              <!-- card 6  -->
+              <div class="card bg-[#EFEBE3] w-96 shadow-xl hover:scale-[95%]">
+                <div class="card-body">
+                  <h2 class="card-title">Meat</h2>
+                  <p>You don’t typically find philosophical bickering at an FDA public meeting. But then again, lab-grown meat is no ordinary topic.</p>
+                </div>
+                <figure>
+                  <img
+                    src="https://media.wired.com/photos/5b493b6b0ea5ef37fa24f6f6/master/pass/meat-80049790.jpg"
+                    alt="Meat" />
+                </figure>
+              </div>
+         </div>
+      </div>
+
+      <!-- fature option end  -->
+
+
+     <!-- Arrival & Offers -->
+      <div class="w-[85%]  mx-auto mt-16 mb-96">
+           <div>
+              <h3 class="text-3xl font-black text-[#179800] m-5">Arrival & Offers</h3>
+              <div class="flex flex-col sm:flex-row justify-center gap-5">
+                   <div class="flex justify-around items-center bg-[#115414] p-6 gap-3 rounded-md w-[85%] sm:w-[70%] mx-auto">
+                       <div class="flex flex-col ">
+                           <img class="w-[120px] sm:w-[230px]" src="./c2-assets/dawat-logo.png" alt="">
+                           <p class="text-white font-thin text-sm sm:text-lg px-6 py-1 bg-[#63B76D] my-6 rounded-md">Cook Exotic Dishes</p>
+                           <h3 class="text-lg sm:text-3xl text-white">UP to <span class="font-bold">20% OFF</span></h3>
+                       </div>
+                       <img class="w-[180px] sm:w-[300px]" src="./c2-assets/dawat-mock-up.png" alt="">
+                   </div>
+                   <!--  card 2 -->
+                   <div class="flex justify-around items-center bg-[#102861] p-6 gap-3 rounded-md w-[85%] sm:w-[30%] mx-auto">
+                    <div class="flex flex-col ">
+                        <img class="h-[80px] sm:h-[130px] w-[80px] sm:w-[130px]" src="./c2-assets/india-gate-logo.png" alt="">
+                        <p class="text-white font-thin text-sm sm:text-lg px-6 py-1 bg-[#2A4D97] my-6 rounded-md">World’s No.1 Rice</p>
+                        <h3 class="text-lg sm:text-3xl text-white">UP to <span class="font-bold">40% OFF</span></h3>
+                    </div>
+                    <img class="h-[170px] sm:h-[250px] " src="./c2-assets//india-gate-mock-up.png" alt="">
+                </div>
+              </div>
+           </div>
+      </div>
+
+      <!-- footer -->
+       <footer class="bg-[#179800]  relative">
+           <div class="flex flex-col sm:flex-row justify-evenly items-center gap-5 bg-[#EFEBE3] w-[85%] rounded-md absolute -top-[320px] sm:-top-[170px] left-[7.5%] py-10">
+              <img class="h-[10%] sm:w-[30%]" src="/c2-assets/vegetable-busket.png" alt="">
+              <div>
+                 <h2 class="text-3xl font-bold ">Get Grocery News!</h2>
+                 <p class="py-5 ">Exclusive training tips, ticks, product deals and more.</p>
+                 <input type="email" class="flexitems-center px-3 py-2 mb-5 w-[90%]" placeholder="enter email...">
+                 <button class="text-white py-2 px-6 bg-[#179800] rounded-md">Subscribe</button>
+              </div>
+           </div>
+
+           <div class="flex flex-col sm:flex-row  sm:justify-evenly sm:items-end pt-[350px] sm:pt-[280px] pb-[60px] ml-12 sm:ml-0 text-white">
+               <div>
+                    <img src="./c2-assets/logo-footer.png" alt="" class="py-5">
+                    <p class="w-[45%] pt-2 pb-10">Discover a world of treats, toys, and essentials handpicked for your furry friends</p>
+               </div>
+               <div>
+                <ul class="">
+                    <li class="py-2"> <a href="">Product </a></li>
+                    <li class="py-2"><a href="">Services</a></li>
+                    <li class="pt-2 pb-10"><a href="">Contact us</a></li>
+                </ul>
+               </div>
+               <div class="text-white">
+                  <p class="py-2">follow us</p>
+                  <i class="fa-brands fa-facebook py-2 pr-2 "></i>
+                  <i class="fa-brands fa-instagram p-2"></i>
+                  <i class="fa-brands fa-linkedin p-2"></i>
+                  <i class="fa-brands fa-youtube pt-2 pb-10"></i>
+               </div>
+           </div>
+       </footer>
+</body>
+</html>
